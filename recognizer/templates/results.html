@@ -1,0 +1,29 @@
+
+{% extends 'base.html' %}
+{% block  body %}
+		<body class='detail'>
+		<div class="title"><h1>License Plate Recognition</h1></div>
+		<div class="container">
+			<!-- <div class="left"></div> -->
+			<div class="right">
+				<center>
+				<div class="formBox">
+					
+				
+				<form method="POST" action="results" enctype="multipart/form-data">{% csrf_token %}
+
+					
+					<label class="control-label col-sm-1" >
+					Input Image:<input type="file" name="myfile" class="myfile" onchange=""/>
+					Input Classification textfile:<input type="file" name="mytext"  class="myfile" onchange="" / >
+					Input Flatten textfile:<input type="file" name="mytexty"  class="myfile" onchange="" accept="*/txt " / >
+					 <input type="submit" value="Recognize"  /> 
+					 </label>
+				
+					</form>
+			</div></center>
+		</div>
+	</div>
+</body>
+
+{% endblock %}  

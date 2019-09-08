@@ -1,0 +1,152 @@
+/* body
+{
+  margin: 0;
+  padding: 0;
+  background: url(car.jpg);
+  background-size: cover; 
+  font-family: sans-serif;
+} */
+body{
+    background: url("images/background.jpg"); 
+}
+.navbar{
+    border-radius:0;
+}
+
+.navbar-brand{
+    font-family: 'Tangerine' , serif;
+    font-size: 50px;
+}
+
+.title
+{
+	text-align: center;
+	padding: 50px 0 20px;
+}
+.title h1 
+{
+   margin: 0;
+   padding: 0;
+   color: #f7f2f2;
+   /*font-family: 'Tangerine' , serif;*/
+   text-transform: uppercase;
+   font-size: 20px;
+}
+.container
+{
+	width: 40%;
+	/*height: 500px;*/
+	background:  #fff;
+	/*margin: 0 auto;*/
+	border: 2px solid #fff;
+	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.5);
+	margin-bottom: 20px;
+}
+
+.container .left 
+{
+	float: left;
+	width: 60%;
+	/*height: 500px;*/
+	background: url(car2.jpg);
+	background-size: cover;
+	box-sizing: border-box; 
+}
+.formBox
+{
+	/*width: 100%;*/
+	padding: 80px 40px;
+	box-sizing: border-box;
+	/*height: 500px;*/
+	background: #fff;
+}
+.formBox p{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #a6af13;
+}
+.formBox input
+{
+	width: 280px;
+	margin-bottom: 20px;
+}
+.formBox input[type="text"],
+.formBox input[type="file"]
+{
+	border: none;
+	border-bottom: 2px solid #a6af13;
+	outline: none;
+	height: 40px;
+}
+.formBox input[type="text"]:focus,
+.formBox input[type="file"]:focus
+{
+	border-bottom: 2px solid #262626;
+}
+.formBox input[type="submit"]
+{
+	border: none;
+	outline: none;
+	height: 40px;
+	color: #fff;
+	background: #262626;
+	cursor: pointer;
+}
+.formBox input[type="submit"]:hover
+{
+	background: #a6af13;
+}
+.formBox a{
+	color: #262626;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.home{
+	margin: 0;
+  	padding: 0;
+  	background-size: cover; 
+  	font-family: sans-serif;
+	background: url("../images/8.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height:500px;
+
+	/*widows: 100%;*/
+	position: relative;
+  	}
+
+ .home h1{
+ 	color:white;
+ 	text-shadow: 2px 2px blue;
+ 	/*font-family: 'Tangerine' , serif;*/
+    font-size: 70px;
+ }
+
+ .detail{
+ 	margin: 0;
+  	padding: 0;
+  	background-size: cover; 
+  	font-family: sans-serif;
+	background: url("../images/8.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 400px;
+	/*widows: 200px;*/
+	position: relative;
+
+ }
+
+/*.result{
+
+	/*font-family: 'Tangerine' , serif;*/
+	text-align: center;
+	margin-top: 40px
+
+}
+.home h2 {
+	color:#fcf7f7;
+	font-size:100px;
+	background-color: black;
+}*/
